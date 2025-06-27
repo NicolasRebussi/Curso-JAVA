@@ -22,6 +22,7 @@ public class App {
         System.out.println("Suas tarefas são:");
         for (int i = 0; i < n; i++) {
             System.out.println((i + 1) + ": " + tarefas[i]);
+            
         }
 
         scanner.close();
