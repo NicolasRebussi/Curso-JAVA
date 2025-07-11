@@ -1,8 +1,11 @@
 package primeiraclasse;
 
 public class Produto {
-    String nome;
-    Double preco;
-    Integer quantidade;
+	
+	static final Integer QUANTIDADE_MINIMA_ESTOQUE = 10;// Essa não é uma variável e sim, uma constante.
+	
+	String nome;
+	
+	Integer quantidadeEstoque;
 
 }
